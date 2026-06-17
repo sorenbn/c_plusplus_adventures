@@ -11,8 +11,11 @@ int main()
 
 	for (int i = 0; i < length; i++)
 	{
-		const char c = message[i];
-		std::cout << c << std::endl;
+		if (i % 2 == 0) 
+		{
+			const char c = message[i];
+			std::cout << c << std::endl;
+		}
 	}
 
 	return 0;
