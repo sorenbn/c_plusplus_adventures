@@ -4,4 +4,5 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="HelloWorld/HelloWorld.vcxproj" Id="3be2cf1e-beb3-47a7-a0fe-0dde65a8cbe5" />
+  <Project Path="Pointers/Pointers.vcxproj" Id="e1f25adf-668d-427e-a4a5-4fc498d5eabc" />
 </Solution>
