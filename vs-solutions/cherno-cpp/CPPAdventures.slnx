@@ -3,6 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="Arrays/Arrays.vcxproj" Id="9e007c1a-f968-4281-91e2-6a1fbd8ccc8a" />
   <Project Path="ClassesAndStructs/ClassesAndStructs.vcxproj" Id="f57c0613-99e3-453b-b6d3-d95303304378" />
   <Project Path="HelloWorld/HelloWorld.vcxproj" Id="3be2cf1e-beb3-47a7-a0fe-0dde65a8cbe5" />
   <Project Path="Inheritance/Inheritance.vcxproj" Id="3d57b650-46bb-4835-8d45-9d5d148f4900" />
