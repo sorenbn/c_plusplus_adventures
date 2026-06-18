@@ -3,6 +3,8 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="ClassesAndStructs/ClassesAndStructs.vcxproj" Id="f57c0613-99e3-453b-b6d3-d95303304378" />
   <Project Path="HelloWorld/HelloWorld.vcxproj" Id="3be2cf1e-beb3-47a7-a0fe-0dde65a8cbe5" />
+  <Project Path="Logger/Logger.vcxproj" Id="c85b374d-8e21-4661-bec3-2d7767017d5c" />
   <Project Path="Pointers/Pointers.vcxproj" Id="e1f25adf-668d-427e-a4a5-4fc498d5eabc" />
 </Solution>
