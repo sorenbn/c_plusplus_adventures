@@ -29,6 +29,7 @@ public:
         std::cout << "Created entity!" << std::endl;
     }
 
+    // invoked automatically when scope ends (stack allocated) or when deleted manually (heap allocated)
     ~Player()
     {
         std::cout << "Destroyed entity!" << std::endl;
