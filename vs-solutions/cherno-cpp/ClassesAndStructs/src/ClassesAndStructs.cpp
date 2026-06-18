@@ -10,11 +10,19 @@ public:
     float y;
     float speed;
 
+    // constructor
     Player()
     {
         x = 0;
         y = 0;
         speed = 1;
+    }
+
+    Player(float _x, float _y, float _speed)
+    {
+        x = _x;
+        y = _y;
+        speed = _speed;
     }
 
     void Move(int dx, int dy) 
@@ -50,6 +58,21 @@ struct Vec2f
     }
 };
 
+// static utility-type logger that doesn't allow for construction of a Log class.
+class Log
+{
+private:
+    Log()
+    {
+
+    }
+public:
+    static void Write(const char* message)
+    {
+        std::cout << message << std::endl;
+    }
+};
+
 int main()
 {
     Player player{};
@@ -57,6 +80,11 @@ int main()
 
     LOG(player.x);
     LOG(player.y);
+
+    Player player2(1.0, 2.0, 3.0);
+
+    LOG(player2.x);
+    LOG(player2.y);
 
     Enemy enemy{};
     enemy.speed = 5.0f;
@@ -80,4 +108,6 @@ int main()
 
     LOG(v2.x);
     LOG(v2.y);
+
+    Log::Write("Static log message");
 }
