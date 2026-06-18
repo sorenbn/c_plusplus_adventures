@@ -26,7 +26,8 @@ struct Entity
 	// static variable that's "global" for all instances of Entity. Shared, pointing to the same memory.
 	static int count;
 
-	void print()
+	// const here basically means it will not change any of the member variables of this entity, inside this function.
+	void print() const
 	{
 		std::cout << x << ", " << y << ", count: " << count << std::endl;
 	}

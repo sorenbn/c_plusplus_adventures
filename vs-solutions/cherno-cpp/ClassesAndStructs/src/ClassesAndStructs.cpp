@@ -6,8 +6,8 @@
 class Player
 {
 public:
-    int x;
-    int y;
+    float x;
+    float y;
     float speed;
 
     Player()
@@ -27,8 +27,8 @@ public:
 // everything is public by default
 struct Enemy
 {
-    int x;
-    int y;
+    float x;
+    float y;
     float speed;
 
     void Move(int dx, int dy)
