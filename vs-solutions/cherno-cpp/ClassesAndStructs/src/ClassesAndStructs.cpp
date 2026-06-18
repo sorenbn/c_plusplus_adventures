@@ -16,6 +16,8 @@ public:
         x = 0;
         y = 0;
         speed = 1;
+
+        std::cout << "Created entity!" << std::endl;
     }
 
     Player(float _x, float _y, float _speed)
@@ -23,6 +25,13 @@ public:
         x = _x;
         y = _y;
         speed = _speed;
+
+        std::cout << "Created entity!" << std::endl;
+    }
+
+    ~Player()
+    {
+        std::cout << "Destroyed entity!" << std::endl;
     }
 
     void Move(int dx, int dy) 
