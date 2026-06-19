@@ -4,21 +4,21 @@
 #define LOG(x) std::cout << x << std::endl
 
 // forward declerations
-void pointers();
+void const_pointers();
 void references();
 void increment_by_pointer(int* number);
 void increment_by_reference(int& number);
 
 int main()
 {
-    pointers();
+    const_pointers();
     references();
 
     std::cin.get();
     return 0;
 }
 
-void pointers()
+void const_pointers()
 {
     LOG("######## POINTERS ########");
 
