@@ -29,6 +29,13 @@ public:
         std::cout << "Created entity!" << std::endl;
     }
 
+    Player(float _x, float _y)
+        : x(_x), y(_y) // member initializer, must be in the same order as the members are listed in the class
+    {
+        speed = 10;
+        std::cout << "Created entity!" << std::endl;
+    }
+
     // invoked automatically when scope ends (stack allocated) or when deleted manually (heap allocated)
     ~Player()
     {
