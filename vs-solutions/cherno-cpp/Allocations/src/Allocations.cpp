@@ -114,6 +114,28 @@ void heap_allocations()
 
 	// manually destroy the entity, because the function is not responsible for that (and it would make it a useless function lol)
 	delete new_entity;
+
+	// allocate an array of 50 ints on the heap
+	// notice it's almost the same as saying 'int* number = new int', as new always returns a pointer to the memory or the beginning of the memory, when it's an array
+	int* array = new int[50]; // 200 bytes, 4 bytes per integer
+
+	// delete the array with the delete[] keyword, specifically
+	delete[] array;
+
+	// 'new' is just an operator behind the scenes
+	Entity* e1 = new Entity("Testyyy", 45);
+	// it's essentially just calling malloc, with the size of the object, and returning it as a pointer.
+	// the other difference being that 'new' will also invoke the constructor of the class.
+	Entity* e2 = (Entity*)malloc(sizeof(Entity));
+
+	// you can specifiy where in the memory this allocation is located.
+	// in this case, it would override the memory of e1.
+	Entity* e3 = new(e1) Entity("Testyyyy2", 456);
+	 
+	// delete is also an operator, which makes sure to invoke the destructor of the class
+	delete e1;
+	delete e2;
+	delete e3;
 }
 
 int main()
