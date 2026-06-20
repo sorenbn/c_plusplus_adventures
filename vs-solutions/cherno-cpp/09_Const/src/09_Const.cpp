@@ -1,4 +1,5 @@
 #include <iostream>
+#include "utils.h"
 
 class Entity 
 {
@@ -90,6 +91,8 @@ int main()
 		};
 
 	lambda_by_reference();
+	
+	assert(false, "Nub");
 
 	std::cin.get();
 }
