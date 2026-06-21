@@ -78,4 +78,3 @@ int main()
     implicit_casting();
     explicit_casting();
 }
-
