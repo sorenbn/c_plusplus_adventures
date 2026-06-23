@@ -3,20 +3,21 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="01_HelloWorld/HelloWorld.vcxproj" Id="3be2cf1e-beb3-47a7-a0fe-0dde65a8cbe5" />
+  <Project Path="02_Pointers/Pointers.vcxproj" Id="e1f25adf-668d-427e-a4a5-4fc498d5eabc" />
+  <Project Path="03_ClassesAndStructs/ClassesAndStructs.vcxproj" Id="f57c0613-99e3-453b-b6d3-d95303304378" />
+  <Project Path="04_Logger/Logger.vcxproj" Id="c85b374d-8e21-4661-bec3-2d7767017d5c" />
+  <Project Path="05_Static/Static.vcxproj" Id="8afd7a84-9463-4582-9efa-2a15ead07af5" />
+  <Project Path="06_Inheritance/Inheritance.vcxproj" Id="3d57b650-46bb-4835-8d45-9d5d148f4900" />
+  <Project Path="07_Arrays/Arrays.vcxproj" Id="9e007c1a-f968-4281-91e2-6a1fbd8ccc8a" />
+  <Project Path="08_Strings/Strings.vcxproj" Id="d8d79ab6-3d76-4944-9752-13c019aff785" />
   <Project Path="09_Const/09_Const.vcxproj" Id="d191f280-c187-40e2-9559-eda5f50d3bcf" />
-  <Project Path="Allocations/Allocations.vcxproj" Id="cc45f417-5011-42c2-96cd-f01d51c692ac" />
-  <Project Path="Arrays/Arrays.vcxproj" Id="9e007c1a-f968-4281-91e2-6a1fbd8ccc8a" />
-  <Project Path="ArrowOperator/ArrowOperator.vcxproj" Id="e2704867-9b7d-4802-9a1a-003a21699443" />
-  <Project Path="ClassesAndStructs/ClassesAndStructs.vcxproj" Id="f57c0613-99e3-453b-b6d3-d95303304378" />
-  <Project Path="Conversions/Conversions.vcxproj" Id="0e959a5b-1e92-4180-9e83-3edf03f2770c" />
-  <Project Path="CopyConstructors/CopyConstructors.vcxproj" Id="0bc88229-d6cb-4df6-b169-eb4cb01e63dc" />
-  <Project Path="DynamicArrays/DynamicArrays.vcxproj" Id="c61e02ad-508b-4475-80ab-49914f19bf52" />
-  <Project Path="HelloWorld/HelloWorld.vcxproj" Id="3be2cf1e-beb3-47a7-a0fe-0dde65a8cbe5" />
-  <Project Path="Inheritance/Inheritance.vcxproj" Id="3d57b650-46bb-4835-8d45-9d5d148f4900" />
-  <Project Path="Logger/Logger.vcxproj" Id="c85b374d-8e21-4661-bec3-2d7767017d5c" />
-  <Project Path="Operatorsmm/Operatorsmm.vcxproj" Id="11de04ae-e4e9-40af-a54e-303b64b1fcb1" />
-  <Project Path="Pointers/Pointers.vcxproj" Id="e1f25adf-668d-427e-a4a5-4fc498d5eabc" />
-  <Project Path="SmartPointers/SmartPointers.vcxproj" Id="ee7b36df-0630-45ee-8b13-4befc68cc795" />
-  <Project Path="Static/Static.vcxproj" Id="8afd7a84-9463-4582-9efa-2a15ead07af5" />
-  <Project Path="Strings/Strings.vcxproj" Id="d8d79ab6-3d76-4944-9752-13c019aff785" />
+  <Project Path="10_Allocations/Allocations.vcxproj" Id="cc45f417-5011-42c2-96cd-f01d51c692ac" />
+  <Project Path="11_Conversions/Conversions.vcxproj" Id="0e959a5b-1e92-4180-9e83-3edf03f2770c" />
+  <Project Path="12_Operators/Operators.vcxproj" />
+  <Project Path="13_SmartPointers/SmartPointers.vcxproj" Id="ee7b36df-0630-45ee-8b13-4befc68cc795" />
+  <Project Path="14_CopyConstructors/CopyConstructors.vcxproj" Id="0bc88229-d6cb-4df6-b169-eb4cb01e63dc" />
+  <Project Path="15_ArrowOperator/ArrowOperator.vcxproj" Id="e2704867-9b7d-4802-9a1a-003a21699443" />
+  <Project Path="16_DynamicArrays/DynamicArrays.vcxproj" Id="c61e02ad-508b-4475-80ab-49914f19bf52" />
+  <Project Path="17_ExternalLibraries/ExternalLibraries.vcxproj" Id="e93074fc-1047-4823-acd9-9b62b2ba0d40" />
 </Solution>
