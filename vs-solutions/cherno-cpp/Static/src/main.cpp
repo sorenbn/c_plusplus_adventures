@@ -1,5 +1,22 @@
 #include <iostream>
 
+// simple singleton example
+class EntityManager
+{
+public:
+	static EntityManager& get()
+	{
+		// statically declare an instance, which is only initialized the first time this function gets called, and persists throughout the app lifecycle
+		static EntityManager instance;
+		return instance;
+	}
+
+	void print_hello()
+	{
+		std::cout << "Hello from a singleton entity manager" << std::endl;
+	}
+};
+
 // if 'some_int' inside static.cpp was not marked static, the linker would crash because of duplicate defines
 int some_int = 5;
 
@@ -73,4 +90,6 @@ int main()
 	e1.print();
 
 	Entity::print(e2);
+
+	EntityManager::get().print_hello();
 }
