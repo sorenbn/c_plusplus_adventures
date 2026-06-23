@@ -1,4 +1,4 @@
-#include <iostream>
+#include <print>
 #include "engine.h"
 
 /*
@@ -12,6 +12,7 @@ namespace engine
 {
 	void print_message()
 	{
-		std::cout << "Hello from engine!" << std::endl;
+		// std::println is a new C++ 23 feature lmao (from print include)
+		std::println("Hello from engine");
 	}
 }
