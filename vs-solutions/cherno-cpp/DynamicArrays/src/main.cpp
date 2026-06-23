@@ -6,6 +6,23 @@ struct Vertex
 	float x;
 	float y;
 	float z;
+
+	Vertex()
+	{
+		x = 0;
+		y = 0;
+		z = 0;
+	}
+
+	Vertex(float _x, float _y, float _z)
+		: x(_x), y(_y), z(_z)
+	{}
+
+	Vertex(const Vertex& other)
+		: x(other.x), y(other.y), z(other.z)
+	{
+		std::cout << "Copied!" << std::endl;
+	}
 };
 
 std::ostream& operator<<(std::ostream& stream, const Vertex& vertex)
@@ -22,11 +39,11 @@ void print_dynamic_array(const std::vector<Vertex>& vertices)
 	}
 }
 
-int main()
+void default_behaviour()
 {
 	// simple static array, tied to fixed size
 	Vertex vertices[5];
-	
+
 	// dynamic array of vertices (like List<T> in C#)
 	std::vector<Vertex> dynamic_vertices;
 
@@ -56,6 +73,28 @@ int main()
 
 	// make sure to pass the dynamic array as a reference to avoid copying the data
 	print_dynamic_array(dynamic_vertices);
+}
+
+void improved_behaviour()
+{
+	// reserve some memory up front of initialization to avoid starting with capacity 1 and have copies as soon as we start pushing elements into the array
+	std::vector<Vertex> dynamic_vertices;
+	dynamic_vertices.reserve(3);
+
+	// add new elements to the dynamic array
+	// use emplace_back instead of push_back to avoid creating the vertex on the stack of this function and then copying it into the array
+	// and instead just create the memory inside the array itself
+	dynamic_vertices.emplace_back(1, 2, 3);
+	dynamic_vertices.emplace_back(4, 5, 6);
+	dynamic_vertices.emplace_back(7, 8, 9);
+
+	print_dynamic_array(dynamic_vertices);
+}
+
+int main()
+{
+	default_behaviour();
+	improved_behaviour();
 
 	return 0;
 }
