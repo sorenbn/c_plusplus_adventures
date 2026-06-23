@@ -6,9 +6,11 @@
   <Project Path="09_Const/09_Const.vcxproj" Id="d191f280-c187-40e2-9559-eda5f50d3bcf" />
   <Project Path="Allocations/Allocations.vcxproj" Id="cc45f417-5011-42c2-96cd-f01d51c692ac" />
   <Project Path="Arrays/Arrays.vcxproj" Id="9e007c1a-f968-4281-91e2-6a1fbd8ccc8a" />
+  <Project Path="ArrowOperator/ArrowOperator.vcxproj" Id="e2704867-9b7d-4802-9a1a-003a21699443" />
   <Project Path="ClassesAndStructs/ClassesAndStructs.vcxproj" Id="f57c0613-99e3-453b-b6d3-d95303304378" />
   <Project Path="Conversions/Conversions.vcxproj" Id="0e959a5b-1e92-4180-9e83-3edf03f2770c" />
   <Project Path="CopyConstructors/CopyConstructors.vcxproj" Id="0bc88229-d6cb-4df6-b169-eb4cb01e63dc" />
+  <Project Path="DynamicArrays/DynamicArrays.vcxproj" Id="c61e02ad-508b-4475-80ab-49914f19bf52" />
   <Project Path="HelloWorld/HelloWorld.vcxproj" Id="3be2cf1e-beb3-47a7-a0fe-0dde65a8cbe5" />
   <Project Path="Inheritance/Inheritance.vcxproj" Id="3d57b650-46bb-4835-8d45-9d5d148f4900" />
   <Project Path="Logger/Logger.vcxproj" Id="c85b374d-8e21-4661-bec3-2d7767017d5c" />
