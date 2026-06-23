@@ -20,4 +20,5 @@
   <Project Path="15_ArrowOperator/ArrowOperator.vcxproj" Id="e2704867-9b7d-4802-9a1a-003a21699443" />
   <Project Path="16_DynamicArrays/DynamicArrays.vcxproj" Id="c61e02ad-508b-4475-80ab-49914f19bf52" />
   <Project Path="17_ExternalLibraries_StaticLinking/ExternalLibraries_StaticLinking.vcxproj" Id="e93074fc-1047-4823-acd9-9b62b2ba0d40" />
+  <Project Path="18_ExternalLibraries_DynamicLinking/18_ExternalLibraries_DynamicLinking.vcxproj" Id="948aea7f-4476-4e06-ab37-fbd5834e043d" />
 </Solution>
