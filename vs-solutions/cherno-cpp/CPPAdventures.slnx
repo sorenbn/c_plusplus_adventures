@@ -14,10 +14,10 @@
   <Project Path="09_Const/09_Const.vcxproj" Id="d191f280-c187-40e2-9559-eda5f50d3bcf" />
   <Project Path="10_Allocations/Allocations.vcxproj" Id="cc45f417-5011-42c2-96cd-f01d51c692ac" />
   <Project Path="11_Conversions/Conversions.vcxproj" Id="0e959a5b-1e92-4180-9e83-3edf03f2770c" />
-  <Project Path="12_Operators/Operators.vcxproj" />
+  <Project Path="12_Operators/Operators.vcxproj" Id="d8383316-d89f-4986-b468-9baeac5371c3" />
   <Project Path="13_SmartPointers/SmartPointers.vcxproj" Id="ee7b36df-0630-45ee-8b13-4befc68cc795" />
   <Project Path="14_CopyConstructors/CopyConstructors.vcxproj" Id="0bc88229-d6cb-4df6-b169-eb4cb01e63dc" />
   <Project Path="15_ArrowOperator/ArrowOperator.vcxproj" Id="e2704867-9b7d-4802-9a1a-003a21699443" />
   <Project Path="16_DynamicArrays/DynamicArrays.vcxproj" Id="c61e02ad-508b-4475-80ab-49914f19bf52" />
-  <Project Path="17_ExternalLibraries/ExternalLibraries.vcxproj" Id="e93074fc-1047-4823-acd9-9b62b2ba0d40" />
+  <Project Path="17_ExternalLibraries_StaticLinking/ExternalLibraries_StaticLinking.vcxproj" Id="e93074fc-1047-4823-acd9-9b62b2ba0d40" />
 </Solution>
