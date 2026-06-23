@@ -21,4 +21,6 @@
   <Project Path="16_DynamicArrays/DynamicArrays.vcxproj" Id="c61e02ad-508b-4475-80ab-49914f19bf52" />
   <Project Path="17_ExternalLibraries_StaticLinking/ExternalLibraries_StaticLinking.vcxproj" Id="e93074fc-1047-4823-acd9-9b62b2ba0d40" />
   <Project Path="18_ExternalLibraries_DynamicLinking/18_ExternalLibraries_DynamicLinking.vcxproj" Id="948aea7f-4476-4e06-ab37-fbd5834e043d" />
+  <Project Path="19_Engine/19_Engine.vcxproj" Id="d8d42038-d5e6-47f9-bc72-8211a471cf16" />
+  <Project Path="19_Game/19_Game.vcxproj" Id="649e574d-48d2-4db4-945f-2194b98b1c67" />
 </Solution>
