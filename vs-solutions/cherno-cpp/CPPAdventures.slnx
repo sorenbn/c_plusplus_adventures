@@ -8,6 +8,7 @@
   <Project Path="Arrays/Arrays.vcxproj" Id="9e007c1a-f968-4281-91e2-6a1fbd8ccc8a" />
   <Project Path="ClassesAndStructs/ClassesAndStructs.vcxproj" Id="f57c0613-99e3-453b-b6d3-d95303304378" />
   <Project Path="Conversions/Conversions.vcxproj" Id="0e959a5b-1e92-4180-9e83-3edf03f2770c" />
+  <Project Path="CopyConstructors/CopyConstructors.vcxproj" Id="0bc88229-d6cb-4df6-b169-eb4cb01e63dc" />
   <Project Path="HelloWorld/HelloWorld.vcxproj" Id="3be2cf1e-beb3-47a7-a0fe-0dde65a8cbe5" />
   <Project Path="Inheritance/Inheritance.vcxproj" Id="3d57b650-46bb-4835-8d45-9d5d148f4900" />
   <Project Path="Logger/Logger.vcxproj" Id="c85b374d-8e21-4661-bec3-2d7767017d5c" />
